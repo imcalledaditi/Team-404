@@ -62,12 +62,12 @@ npm start
 ---
 
 ## 📸 Screenshots
+![Home Page](https://github.com/user-attachments/assets/5ea131d8-20ed-4a5d-8ab5-1dbef977da61)
+![Member Profile](https://github.com/user-attachments/assets/2dfc3857-6df0-4132-8d27-fc9009bdbe2d)
+![New Member](https://github.com/user-attachments/assets/302b615b-296c-4305-a4c8-0539a0fd7e6a)
+![Team Members](https://github.com/user-attachments/assets/4a7616c2-4a7b-4874-9113-5197e0755f63)
 
 
-![Home Page](frontend/public/Home Page.jpeg)
-![Member Profile](frontend/public/Member Profile.jpeg)
-![New Member](frontend/public/New Member.jpeg)
-![Team Members(frontend/public/Team Member.jpeg)
 ---
 
 ## 📚 Technologies Used
