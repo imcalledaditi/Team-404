@@ -1,61 +1,103 @@
-# 🚀 Getting Started with Create React App
+# 🌐 Team 404 - Full Stack Member Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
----
-
-## 📦 Available Scripts
-
-In the project directory, you can run:
-
-### ▶️ `npm start`
-
-Runs the app in development mode.  
-🌐 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.  
-🔁 The page reloads automatically when changes are made.  
-🛠️ Lint errors will also appear in the console.
+A modern MERN (MongoDB, Express, React, Node.js) web application to manage member data with full CRUD functionality and a clean user interface.
 
 ---
 
-### 🧪 `npm test`
+## 📁 Project Structure
 
-Launches the test runner in interactive watch mode.  
-📘 Learn more: [Running Tests](https://facebook.github.io/create-react-app/docs/running-tests)
-
----
-
-### 🏗️ `npm run build`
-
-Builds the app for production to the `build` folder.  
-✨ Optimized for performance with minified files and hashed filenames.
-
-📘 Learn more: [Deployment Guide](https://facebook.github.io/create-react-app/docs/deployment)
+```
+Team-404-main/
+├── frontend/       # React-based client-side application
+├── backend/        # Express.js server with REST API
+└── README.md       # You're here!
+```
 
 ---
 
-### ⚠️ `npm run eject`
+## 🚀 Features
 
-> **Warning: This is a one-way operation!**
-
-Once you `eject`, you **can’t go back**.  
-It copies all configuration files and dependencies (Webpack, Babel, ESLint, etc.) into your project for full control.
-
-**Use this only if you need advanced customization.**
-
----
-
-## 📚 Learn More
-
-- 🛠️ [CRA Documentation](https://facebook.github.io/create-react-app/docs/getting-started)  
-- ⚛️ [React Documentation](https://reactjs.org/)
+- 👥 View, Add, Edit, and Delete Members
+- 🎨 Light/Dark Theme Toggle
+- 🔧 Responsive UI with React
+- 🔄 RESTful API integration
+- 📦 Modular codebase for scalability
 
 ---
 
-## 🔍 Advanced Topics
+## 🔧 Getting Started
 
-- 🔀 [Code Splitting](https://facebook.github.io/create-react-app/docs/code-splitting)  
-- 📊 [Analyzing Bundle Size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)  
-- 📱 [Progressive Web App](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)  
-- ⚙️ [Advanced Configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)  
-- 🚀 [Deployment](https://facebook.github.io/create-react-app/docs/deployment)  
-- 🧹 [Build Fails to Minify?](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 📦 Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+- [MongoDB](https://www.mongodb.com/)
+
+---
+
+### 🔨 Backend Setup
+
+```bash
+cd backend
+npm install
+npm start
+```
+
+> 🔁 Server will start on `http://localhost:5000`
+
+---
+
+### 💻 Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+> 🌐 React app will start on `http://localhost:3000`
+
+---
+
+## 📸 Screenshots
+
+<!-- You can add screenshots like this -->
+<!-- ![Home Page](frontend/public/screenshot-home.png) -->
+
+---
+
+## 📚 Technologies Used
+
+- **Frontend**: React, JSX, CSS
+- **Backend**: Express.js, Node.js, MongoDB
+- **Tools**: npm, concurrently, dotenv
+
+---
+
+## 📂 Folder Highlights
+
+### `/frontend/src/components`
+Reusable React components like:
+
+- `Navbar`
+- `AddMember`, `EditMember`
+- `ViewMembers`
+- `ThemeToggle`
+
+### `/backend/routes`
+- API routes to handle member CRUD operations
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License.  
+See the [LICENSE](./LICENSE) file for details.
+
+---
+
+## 💡 Author
+
+Made with ❤️ by **Team 404**
