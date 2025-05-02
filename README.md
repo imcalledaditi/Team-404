@@ -63,9 +63,11 @@ npm start
 
 ## 📸 Screenshots
 
-<!-- You can add screenshots like this -->
-<!-- ![Home Page](frontend/public/screenshot-home.png) -->
 
+![Home Page](frontend/public/Home Page.jpeg)
+![Member Profile](frontend/public/Member Profile.jpeg)
+![New Member](frontend/public/New Member.jpeg)
+![Team Members(frontend/public/Team Member.jpeg)
 ---
 
 ## 📚 Technologies Used
