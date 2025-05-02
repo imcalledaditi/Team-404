@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="home">
       <div className="home-card">
-        <h1>Welcome to <span className="highlight">Team APEX</span> 🎓</h1>
+        <h1>Welcome to <span className="highlight">Team 404</span> 🎓</h1>
         <p className="home-text">
           Welcome to the student team members management appication!!
           Add, view, and update members with ease.
