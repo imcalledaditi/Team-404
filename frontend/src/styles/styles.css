@@ -1,0 +1,362 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Dark / Light Themes */
+body.light {
+  background: linear-gradient(to right, #fff0f5, #fef6e4);
+  color: #222;
+}
+
+body.dark {
+  background: #121212;
+  color: #f0f0f0;
+}
+
+/* App Container */
+.app {
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 14px 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+body.dark .navbar {
+  background: #1e1e2f;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  font-size: 24px;
+}
+
+.navbar-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 12px;
+}
+
+.nav-btn {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.nav-btn.add {
+  background: #ffb6b9;
+  color: white;
+}
+
+.nav-btn.view {
+  background: #b5ead7;
+  color: #222;
+}
+
+.nav-btn.toggle {
+  background: #333;
+  color: white;
+}
+
+body.dark .nav-btn.toggle {
+  background: #eee;
+  color: #111;
+}
+
+/* Home */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.home-card {
+  background: white;
+  padding: 40px;
+  max-width: 600px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+body.dark .home-card {
+  background: #1f1f2e;
+}
+
+.home-card h1 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.highlight {
+  color: #ff6f91;
+}
+
+.home-text {
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.home-actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.home-btn {
+  padding: 12px 20px;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+.home-btn.add {
+  background: #ffafcc;
+}
+
+.home-btn.view {
+  background: #a0ced9;
+}
+
+/* Add Member Form */
+.form-container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+body.dark .form-container {
+  background: #292942;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+input, textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 0.95rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.upload-label {
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.image-preview {
+  text-align: center;
+}
+
+.image-preview img {
+  margin-top: 8px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #4caf50;
+}
+
+.submit-btn {
+  background: #4caf50;
+  color: white;
+  font-size: 1rem;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.submit-btn:hover {
+  background: #43a047;
+}
+
+/* View Members */
+.view-container {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.member-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+}
+
+.member-card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+body.dark .member-card {
+  background: #2a2a3a;
+}
+
+.member-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.member-card h3 {
+  margin-bottom: 5px;
+}
+
+.role {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.meta {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+.card-buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.edit-btn {
+  background: #82caff;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: #ff6f61;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 30px;
+  display: block;
+  padding: 10px 16px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: #f7f7f7;
+}
+
+body.dark .search-input {
+  background: #1f1f2e;
+  color: white;
+  border-color: #555;
+}
+
+/* Member Details Fixes */
+.preview-image {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ccc;
+  margin: 0 auto 1rem auto;
+  display: block;
+}
+
+.member-detail {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+  padding: 0 1rem;
+}
+
+.member-card {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+body.dark .member-card {
+  background: #1e1e2f;
+}
+
+.member-heading {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
